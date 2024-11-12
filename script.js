@@ -9,8 +9,6 @@ document.getElementById("contactForm").addEventListener("submit", function(event
 
     // Capture form data
     const name = document.getElementById("name").value;
-    const email = document.getElementById("email").value;
-    const message = document.getElementById("message").value;
 
     // Simulate form submission with a message
     document.getElementById("formResponse").textContent = `Thank you, ${name}! Your message has been sent.`;
